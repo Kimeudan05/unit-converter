@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body{
+  }
+  
+  body {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -12,20 +12,22 @@ body{
     text-align: center;
     color: #ffffff;
     height: 100vh;
-}
-
-.container{
+  }
+  
+  .container {
     background-color: transparent;
-}
-.header{
+  }
+  
+  .header {
     background-color: #6943FF;
     padding: 50px;
-}
-.header h2 {
-   margin-bottom: 20px;
- }
- 
-#input-val input{
+  }
+  
+  .header h2 {
+    margin-bottom: 20px;
+  }
+  
+  #input-val input {
     text-align: center;
     width: 100px;
     border-radius: 5px;
@@ -36,18 +38,18 @@ body{
     color: #ffffff;
     border: 1px solid #B295FF;
     outline: none;
-
-}
-#input-val input::placeholder{
+  }
+  
+  #input-val input::placeholder {
     color: #ffffff;
-}
-
-.output{
+  }
+  
+  .output {
     background-color: #1F2937;
     margin: 0;
-}
-
-#convert-btn{
+  }
+  
+  #convert-btn {
     background-color: #ffffff;
     margin-top: 10px;
     padding: 5px 10px;
@@ -56,21 +58,84 @@ body{
     cursor: pointer;
     width: 100px;
     color: #3D3D3D;
-}
-
-ul{
+  }
+  
+  ul {
     list-style: none;
     padding-top: 10px;
-  padding-bottom: 10px;
-}
-ul li{
+    padding-bottom: 10px;
+  }
+  
+  ul li {
     background-color: #273549;
     color: #CCC1FF;
- margin: 10px;
- padding: 10px;
-}
-
-ul li p{
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  ul li p {
     padding: 10px;
     font-size: 12px;
-}
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .header {
+      padding: 30px;
+    }
+  
+    #input-val input {
+      width: 80px;
+      font-size: 2rem;
+      height: 60px;
+    }
+  
+    #convert-btn {
+      width: 90px;
+      padding: 5px 8px;
+    }
+  
+    ul li {
+      margin: 8px;
+      padding: 8px;
+    }
+  
+    ul li p {
+      font-size: 11px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .header {
+      padding: 20px;
+    }
+  
+    #input-val input {
+      width: 70px;
+      font-size: 1.5rem;
+      height: 50px;
+    }
+  
+    #convert-btn {
+      width: 80px;
+      padding: 4px 7px;
+    }
+  
+    ul li {
+      margin: 5px;
+      padding: 5px;
+    }
+  
+    ul li p {
+      font-size: 10px;
+    }
+  }
+  
