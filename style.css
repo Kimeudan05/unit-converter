@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.container{
+    background-color: transparent;
+}
+.header{
+    background-color: #6943FF;
+    padding: 50px;
+}
+.header h2 {
+   margin-bottom: 20px;
+ }
+ 
+#input-val input{
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    background-color: transparent;
+    height: 70px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #B295FF;
+    outline: none;
+
+}
+#input-val input::placeholder{
+    color: #ffffff;
+}
+
+.output{
+    background-color: #1F2937;
+    margin: 0;
+}
+
+#convert-btn{
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    color: #3D3D3D;
+}
+
+ul{
+    list-style: none;
+    padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul li{
+    background-color: #273549;
+    color: #CCC1FF;
+ margin: 10px;
+ padding: 10px;
+}
+
+ul li p{
+    padding: 10px;
+    font-size: 12px;
+}
